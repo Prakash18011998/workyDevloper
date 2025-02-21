@@ -1,0 +1,357 @@
+body {
+    background-color: #ffff;
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: fit-content;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    height: 79px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25px;
+    box-shadow: 0px 4px 40px 0px #0000001A;
+    background: #FFFFFF;
+}
+
+.logocontainer {
+    display: flex;
+    align-items: center;
+    width: 180px;
+    height: 59px;
+}
+
+/* .logo {
+    display: block;
+    width: 132.39px;
+    height: 24.50px;
+} */
+
+.comapanyName {
+    font-family: "Inspiration", cursive;
+    font-weight: lighter;
+    font-size: 25px;
+    line-height: 30.48px;
+    white-space: nowrap;
+    font-style: italic;
+}
+
+.navbar {
+    width: 645px;
+    height: 45px;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-family: Inter;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 25px;
+    color: #4A5568;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: blue;
+}
+
+.contactbtn {
+    width: 124;
+    height: 42;
+    padding-top: 14px;
+    padding-right: 25px;
+    padding-bottom: 14px;
+    padding-left: 25px;
+    gap: 10px;
+    border-radius: 5px;
+    background: linear-gradient(225deg, #6675F7 0%, #57007B 100%);
+}
+
+.mainwrapper {
+    display: flex;
+    width: 100%;
+    height: 546px;
+    top: 148px;
+    left: 104px;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+.contentcontainer {
+    width: 531px;
+    height: 355px;
+    gap: 75px;
+    float: left;
+}
+
+.content {
+    width: 520px;
+    height: 142px;
+    font-family: Inter;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 71px;
+    letter-spacing: 0%;
+    color: black;
+    margin-top: 100px;
+    justify-content: space-between;
+}
+
+.highlight {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 71px;
+    color: #e513f060;
+    text-shadow: #e513f060;
+}
+
+.bold {
+    font-family: Inter;
+    font-weight: 800;
+    font-size: 53px;
+    line-height: 71px;
+    letter-spacing: 0%;
+}
+
+.second {
+    width: 531px;
+    height: 58px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0%;
+    color: #4A5568;
+}
+
+.startBtn {
+    display: block;
+    width: 175px;
+    height: 62px;
+    padding-top: 19px;
+    padding-right: 30px;
+    padding-bottom: 19px;
+    padding-left: 30px;
+    gap: 10px;
+    border-radius: 10px;
+    background: #3D63EA;
+    color: #FAFAFA;
+    box-shadow: 0px 4px 49px 0px #00000026;
+}
+
+.imgcontainer {
+    gap: 10px;
+    margin-right: 100px;
+}
+
+.secondContainer {
+    height: 602.33px;
+    border-width: 1px;
+    border: 1px solid #E7DAED;
+    margin: 0;
+    padding: 0;
+    background: #F9F9FF;
+}
+
+.secondContainer header {
+    font-size: 20px;
+    box-shadow: none;
+    justify-content: space-between;
+    display: inline;
+}
+
+.secondContainer header h1 {
+    text-align: center;
+}
+
+.service-Card-Container {
+    display: flex;
+    gap: 20px;
+    margin-top: 80px;
+    overflow-y: auto
+}
+
+.serviceCard {
+    width: fit-content;
+    display: block;
+    justify-content: space-between;
+    border-width: 1px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    transition-property: transform;
+    transition-duration: 1s;
+    margin-top: 50px;
+}
+
+.serviceCard:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 15px rgba(197, 61, 61, 0.3);
+}
+
+.service-logo {
+    margin: auto;
+    width: 58px;
+    height: 58px;
+    border-width: 1px;
+    border-radius: 30px;
+    border: 1px solid palevioletred;
+    background: #FAFAFA;
+    border-radius: 50px;
+}
+
+.service-content-header {
+    text-wrap: nowrap;
+    color: #3D63EA;
+    width: 271px;
+    height: 25px;
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content-label {
+    width: 301px;
+    height: 92px;
+    margin-top: 10px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    color: #4A5568;
+}
+
+.thirdcontainer {
+    width: 100%;
+    height: 546px;
+    justify-content: space-between;
+    font-family: Inter;
+    margin-left: 50px;
+}
+
+.thirdcontainer div {
+    display: flex;
+}
+
+.aboutus {
+    margin-top: 100px;
+}
+
+.leading {
+    height: 108px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 55px;
+}
+
+.development {
+    height: 181px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0%;
+}
+
+.development span {
+    color: #e513f060;
+}
+
+.seemore {
+    margin-top: 50px;
+    height: 25px;
+    gap: 15px;
+}
+
+.seemore a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #57007B;
+}
+
+.seemore a:hover {
+    color: blue;
+}
+
+.seemore a:active {
+    color: blue;
+}
+
+.rightarrow {
+    border: solid #57007B;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+video {
+    width: 800px;
+    height: 460px;
+    display: inline;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.lowerlabel {
+    height: 133px;
+    top: 2212px;
+    left: 105px;
+    gap: 20px;
+}
+
+.lowerlabel {
+    width: 412px;
+    height: 108px;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 55px;
+    margin-top: 100px;
+}
+
+.lowerlabel span {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 55px;
+    letter-spacing: 0%;
+}
+
+.companylogo {
+    margin-top: 250px;
+    border-width: 1px;
+    border: 1px solid #E7DAED;
+    zoom: 1.2;
+}
