@@ -1,0 +1,73 @@
+header {
+  place-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+}
+
+div
+{
+  margin: 160px;
+}
+.container
+{
+    width: 5233px;
+    height: 1609px;
+    top: 5573px;
+    left: 200px;
+    gap: 95px;
+}
+.frame53
+{
+width: 1233px;
+height: 473px;
+justify-content: space-between;
+display: flex;
+}
+.frame46
+{
+  width: 18px;
+height: 1px;
+display: flex;
+}
+.rectangle17
+{
+  width: 575px;
+height: 473px;
+border-radius: 10px;
+display: flex;
+}
+.frame52
+{
+width: 1233px;
+height: 473px;
+justify-content: space-between;
+display: flex;
+}
+.rectangle18
+{
+  width: 575px;
+height: 473px;
+border-radius: 10px;
+display: flex;
+}
+.waybuilding
+{
+width: 534px;
+height: 433px;
+gap: 25px;
+display: flex;
+}
+.frame51
+{
+width: 1233px;
+height: 473px;
+justify-content: space-between;
+display: flex;
+}
+.waybuildings
+{
+  width: 575;
+height: 473;
+border-radius: 10px;
+display: flex;
+}

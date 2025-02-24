@@ -1,0 +1,151 @@
+header {
+  place-items: center;
+  font-family: 'Inter', sans-serif;
+  font-size: 35px;
+}
+
+
+.head1 {
+  width: 474px;
+  height: 15px;
+  font-weight: 400px;
+  text-align: center;
+}
+
+.head2 {
+  width: 474px;
+  height: 78px;
+  font-weight: 700px;
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 250px;
+  row-gap: 20px;
+  column-gap: 0;
+  height: 100%;
+  margin: 0;
+  padding-top: 20px;
+
+}
+
+.grid1 {
+  width: 601px;
+  height: 416px;
+  top: 3814px;
+  left: 104px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.grid1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid2 {
+  width: 723px;
+  height: 382px;
+  top: 3805px;
+  left: 613px;
+  border-width: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #F1F2FF;
+  padding: 18px;
+  padding-right: 201px;
+  margin: 0;
+  align-content: top;
+
+}
+
+.head {
+  width: 451px;
+  height: 38px;
+  color: #2D3748;
+  font-weight: 600px;
+  font-size: 28px;
+  font-family: 'Inter', sans-serif;
+  padding-left: 20px;
+}
+
+.line {
+  width: 529px;
+  height: 115px;
+  color: #4A5568;
+  font-weight: 400px;
+  font-size: 14px;
+  font-family: 'Inter', sans-serif;
+  padding-left: 20px;
+}
+
+.grid4 {
+  width: 723px;
+  height: 382px;
+  top: 3805px;
+  left: 613px;
+  border-width: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #F0FFF7;
+  padding: 18px;
+  padding-right: 201px;
+  margin: 0;
+  align-content: top;
+}
+
+.grid6 {
+  width: 723px;
+  height: 382px;
+  top: 3805px;
+  left: 613px;
+  border-width: none;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #FFF4F4;
+  padding: 18px;
+  padding-right: 201px;
+  margin: 0;
+  align-content: top;
+}
+
+.Btn-left {
+  text-decoration: none;
+  text-align: center;
+  margin-left: 600px;
+  font-size: 20px;
+
+
+}
+
+a:hover {
+  color: pink;
+}
+
+a:active {
+  color: red;
+}
+
+.rightarrow {
+  border: solid green;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+footer {
+  font-size: 30px;
+  place-items: center;
+  padding-left: 1400px;
+  margin-top: -200px;
+
+}
+
+.readmore {
+  text-decoration: none;
+}
